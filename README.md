@@ -1,139 +1,120 @@
-📊 ATM Transaction Dashboard
-
+🏧 ATM Transaction Dashboard (Power BI)
 📌 Project Overview
 
-The ATM Transaction Dashboard is an interactive Power BI project built to analyze and visualize ATM transaction data.
+This project presents an interactive Power BI Dashboard for analyzing ATM transaction data. The dashboard visualizes financial and non-financial transactions, ATM performance across states and banks, and time-based trends.
 
-It enables banks, financial analysts, and operations teams to track:
+It is designed for banks, financial analysts, and decision-makers to monitor ATM usage, identify underperforming ATMs, and gain actionable insights for better decision-making.
 
-ATM usage patterns
+🎯 Objectives
 
-Financial vs. Non-financial transactions
+Analyze ATM transaction performance across banks, states, and time periods.
 
-Performance across states, banks, and time periods
+Compare financial vs. non-financial transactions to understand customer behavior.
 
-This project was created as part of academic evaluation and career preparation, showcasing skills in data cleaning, data modeling, and dashboard design.
+Evaluate ATM efficiency using KPIs like average transactions and effective days.
 
-❓ Problem Statement
+Provide a user-friendly dashboard for quick business insights.
 
-Banks operate thousands of ATMs, but they often face challenges such as:
+📂 Dataset
 
-Identifying underperforming ATMs
+The dataset combines public data (Kaggle/Open Data) and simulated ATM records with the following key fields:
 
-Tracking monthly/yearly usage trends
+Year – Transaction year
 
-Understanding financial vs. non-financial transaction ratios
+Month – Transaction month
 
-Comparing ATM efficiency across states and banks
+Bank – Bank name
 
-Without proper visualization, valuable insights remain hidden.
+ATM ID – Unique identifier for each ATM
 
-💡 Solution & Insights
+State – ATM location state
 
-The dashboard provides:
+Effective Days – Number of operational days for the ATM
 
-Clear KPIs for ATM performance
+Fin Txn – Number of financial transactions
 
-Interactive filters (Bank, State, Year, Month)
+Non Fin Txn – Number of non-financial transactions
 
-Comparisons across multiple banks and regions
+Monthly Txn – Total monthly transactions
 
-Trends over time for better forecasting
+AVG Fin Txn – Average financial transactions per ATM
 
-👉 This allows banks to optimize ATM deployment, maintenance, and customer experience.
-
-🗂️ Dataset Information
-
-The dataset combines public data (Kaggle/Govt sources) and self-created/simulated records for demonstration.
-
-Column Name	Description
-Year	Transaction year
-Month	Transaction month
-BANK	Bank name
-ATM ID	Unique identifier for each ATM
-STATE	ATM location state
-Effective Days	Number of operational days for the ATM
-Fin Txn	Count of financial transactions
-Non Fin Txn	Count of non-financial transactions
-Monthly Txn	Total monthly transactions
-AVG Fin Txn	Average financial transactions
-AVG Non Fin Txn	Average non-financial transactions
-🔄 Workflow
-
-The project followed a structured ETL + BI process:
-
-Data Collection – Public dataset + simulated ATM data
-
-Data Cleaning – Handling missing values, formatting columns
-
-Data Modeling – Relationships between banks, states, and transactions
-
-Measures Creation – Added calculated fields for KPIs and card visuals
-
-Dashboard Design – Creating an intuitive layout with slicers, KPIs, and charts
-
-Testing & Validation – Ensuring accuracy of metrics and filters
+AVG Non Fin Txn – Average non-financial transactions per ATM
 
 📊 Dashboard Features
 
-✔️ KPIs & Metrics – Total transactions, averages, ATM uptime
-✔️ Line Chart – Transaction growth over months/years
-✔️ Bar & Column Charts – State-wise and bank-wise comparison
-✔️ Donut Chart – Financial vs. non-financial transaction share
-✔️ Filter Slicers – Explore by Year, Month, Bank, State
-✔️ User-Friendly Layout – Clean and professional design
+✔️ KPI Cards – Total transactions, averages, effective ATM days
+✔️ Transaction Trends – Monthly/yearly line chart analysis
+✔️ State-Wise & Bank-Wise Analysis – Performance comparison
+✔️ Financial vs. Non-Financial Split – Donut/pie chart visualization
+✔️ Filters & Slicers – By Year, Month, Bank, and State
+✔️ Clean Layout – Easy navigation for recruiters, professors, and analysts
+
+🖼️ Dashboard Preview
+
+(Replace this with your actual dashboard screenshot)
 
 🛠️ Tools & Technologies
 
-Power BI Desktop – Dashboard creation
+Power BI Desktop – Data visualization & dashboard building
 
-Excel / CSV – Dataset source
+Excel/CSV – Source dataset
 
-Power Query – Data transformation
+Power Query Editor – Data cleaning & transformation
 
-Data Modeling – Relationships & schema design
+Measures – For KPI cards and calculated fields
 
-Calculated Measures – KPIs for card visuals
+Data Modeling – Relationships between banks, states, and transactions
 
-🔧 How to Use
+🚀 How to Use
 
-Clone/download this repository.
+Clone or download this repository.
 
-Open the ATM Transaction Dashboard.pbix file in Power BI Desktop.
+Open the file ATM Transaction Dashboard.pbix in Power BI Desktop.
 
-Interact with filters and visuals to explore insights.
+Explore the interactive visuals using filters and slicers.
 
-Export the dashboard as PDF/PNG for reporting if needed.
+(Optional) Export dashboard to PDF/PNG for presentations.
 
-🚀 Future Improvements
+📈 Insights & Key Findings
 
-🔹 Integration with real-time ATM APIs
+Certain states and banks consistently outperform others.
 
-🔹 Advanced KPIs like Cost per ATM, Downtime Analysis
+Financial transactions form the majority, but non-financial usage is steadily growing.
 
-🔹 Predictive analytics using Machine Learning
+ATMs with higher effective days drive significantly more revenue.
 
-🔹 Deployment to Power BI Service for online sharing
+Monthly trends highlight seasonal patterns in ATM usage.
 
-🔹 Mobile-optimized version
+🔮 Future Scope
 
-🎯 Learning Outcomes
+Real-time data integration with bank APIs
 
-Through this project, I gained hands-on experience in:
+Deployment on Power BI Service for online access
 
-📌 Data Cleaning & Preparation
+Adding predictive analytics models for transaction forecasting
 
-📌 Data Modeling & Relationships
+Mobile-optimized dashboard for on-the-go insights
 
-📌 Designing Interactive Dashboards in Power BI
+🤝 Contribution
 
-📌 Presenting Business Insights through Visuals
+Contributions are welcome! If you’d like to improve the dashboard or add new features:
 
-📌 Storytelling with Data for Recruiters & Academic Evaluation
+Fork the repo
 
-👨‍💻 Author
+Create a new branch (feature-branch)
 
-Your Name
-📧 Email: [ghorpadepranav506@gmail.com]
-🔗 GitHub: [https://github.com/pranav-g506]
-💼 LinkedIn: [https://www.linkedin.com/in/pranav-ghorpade-467270323/]
+Commit your changes
+
+Submit a Pull Request
+
+📜 License
+
+This project is licensed under the MIT License – you are free to use, modify, and distribute with attribution.
+
+👤 Author
+
+Pranav Ghorapade
+📧 [ghorpadepranav506@gmail.com
+]
+🔗 LinkedIn
