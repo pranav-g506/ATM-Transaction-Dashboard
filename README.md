@@ -30,10 +30,15 @@ AVG Non Fin Txn – Average non-financial transactions per ATM
 ## 📊 Dashboard Features
 
  ✔️ KPI Cards – Total transactions, averages, effective ATM days
+ 
  ✔️ Transaction Trends – Monthly/yearly line chart analysis
+ 
  ✔️ State-Wise & Bank-Wise Analysis – Performance comparison
+ 
  ✔️ Financial vs. Non-Financial Split – Donut/pie chart visualization
+ 
  ✔️ Filters & Slicers – By Year, Month, Bank, and State
+ 
  ✔️ Clean Layout – Easy navigation for recruiters, professors, and analysts
 
 
